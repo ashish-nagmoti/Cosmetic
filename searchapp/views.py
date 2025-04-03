@@ -18,3 +18,6 @@ def results(request):
         'products': products,
     }
     return render(request, 'result.html', context)
+
+def scrape_nykaa_f(request):
+    return scrape_nykaa()
